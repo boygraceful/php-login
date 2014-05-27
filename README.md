@@ -6,6 +6,7 @@
 
 *Thanks for 1.000+ stars and 400+ forks. Wow!*
 
+
 ### A PHP & MySQL login script built into a skeleton MVC application
 
 This script is part of the **PHP Login Project**, a collection of four similar login scripts for different use-cases.
