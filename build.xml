@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="HelloWorld" default="welcome" basedir="." description="a demo project">
+<project name="fsfsdfsdf" default="welcome" basedir="." description="a demo project">
     <property name="message" value="Hello World!"/>
     <property name="buildDir" value="build"/>
     <property name="srcDir" value="src"/>
