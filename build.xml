@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="fsfsdfsdf" default="welcome" basedir="." description="a demo project">
-    <property name="message" value="Hello World!"/>
-    <property name="buildDir" value="build"/>
-    <property name="srcDir" value="src"/>
+<project>
 
-    <target name="prepare">
-        <echo msg="Making directory build"/>
-        <mkdir dir="${buildDir}" />
+   
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+       
     </target>
 
-    <fileset dir="${srcDir}" id="srcfiles">
-        <include name="*"/>
-        <exclude name="*.tmp"/>
-    </fileset>
-
-    <target name="build" depends="prepare">
-        <echo msg="Copying to build directory..."/>
-        <copy todir="${buildDir}">
-            <fileset refid="srcfiles"/>
-        </copy>
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+       
     </target>
+
 </project>
